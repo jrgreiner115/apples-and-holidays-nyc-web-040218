@@ -75,8 +75,9 @@ holiday_hash.each do |season, holiday|
     items.each do |array|
     if array = "BBQ"
       new_array.push holiday
-end
-end
+    end
+    end
+  end
 end
 end
 
