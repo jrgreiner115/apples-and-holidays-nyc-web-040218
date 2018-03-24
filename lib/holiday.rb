@@ -78,6 +78,7 @@ holiday_hash.each do |season, holiday|
     end
     end
   end
+  new_array
 end
 end
 
