@@ -74,12 +74,12 @@ holiday_hash.each do |season, holiday|
   holiday.each do |holiday_name, items|
     items.each do |array|
     if array == "BBQ"
-     return bbq_array << holiday_name
+     bbq_array << holiday_name
     end
     end
   end
 end
-new_array
+bbq_array
 end
 
 
